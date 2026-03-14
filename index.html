@@ -1,21 +1,246 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <title>傻狗 刘东哲</title>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="关于柳哲宇的个人介绍页面">
+    <title>柳哲宇 - 个人介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(90deg, #4CAF50, #2196F3, #9C27B0);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eee;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #2196F3, #9C27B0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        h2 {
+            color: #34495e;
+            font-size: 2rem;
+            margin: 30px 0 15px;
+            padding-left: 10px;
+            border-left: 4px solid #4CAF50;
+        }
+        
+        .highlight {
+            color: #e74c3c;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        
+        .intro-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 25px 0;
+            border-left: 4px solid #2196F3;
+        }
+        
+        ul, ol {
+            margin: 20px 0;
+            padding-left: 30px;
+        }
+        
+        li {
+            margin: 10px 0;
+            padding: 8px 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            transition: transform 0.2s, background 0.2s;
+        }
+        
+        li:hover {
+            transform: translateX(5px);
+            background: #e9ecef;
+        }
+        
+        .link-container {
+            text-align: center;
+            margin: 40px 0;
+            padding: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .main-link {
+            display: inline-block;
+            font-size: 2.5rem;
+            color: white;
+            text-decoration: none;
+            padding: 15px 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        
+        .main-link:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        
+        .emoji {
+            font-size: 1.2em;
+            margin: 0 5px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .main-link {
+                font-size: 1.8rem;
+                padding: 12px 30px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1> Who is liuzheyu</h1>
-    <ul>
-        <li>yes,is me</li>
-        <li>are you sure</li>
-        <li><strong>ohohhhh MY GOD</strong> </li>
-    </ul>
-    <ol>
-        <li>what the hell</li>
-        <li>FIne THAnk</li>
-    </ol> 
-    <h2>I AM <strong>LIUzheYU</strong></h2>
-    <div style="font-size: 100px;text-align: center">
-     <a href="https://www.nipic.com/show/39016867.html",target="_blank">柳哲宇</a>
+    <div class="container">
+        <header>
+            <h1>👋 你好，我是 <span class="highlight">柳哲宇</span></h1>
+            <p style="color: #666; font-size: 1.2rem;">欢迎来到我的个人介绍页面</p>
+        </header>
+        
+        <section class="intro-section">
+            <h2>🤔 关于我</h2>
+            <p>我是柳哲宇，一个充满热情和创造力的人。这个页面将帮助你更好地了解我。</p>
+        </section>
+        
+        <section>
+            <h2>🎯 快速了解</h2>
+            <ul>
+                <li><strong>身份确认：</strong>是的，这就是我！<span class="emoji">✅</span></li>
+                <li><strong>真实性：</strong>你确定吗？我百分之百确定！<span class="emoji">🤔</span></li>
+                <li><strong>惊叹时刻：</strong>哦哦哦 我的天啊！<span class="emoji">😲</span></li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>💭 我的想法</h2>
+            <ol>
+                <li><strong>好奇：</strong>这到底是什么？<span class="emoji">🤨</span></li>
+                <li><strong>状态：</strong>很好，谢谢关心！<span class="emoji">😊</span></li>
+            </ol>
+        </section>
+        
+        <section>
+            <h2>✨ 自我介绍</h2>
+            <p style="font-size: 1.4rem; text-align: center; padding: 20px;">
+                我是 <span class="highlight" style="font-size: 1.6rem;">柳哲宇</span>，很高兴认识你！
+            </p>
+        </section>
+        
+        <div class="link-container">
+            <a href="https://www.nipic.com/show/39016867.html" target="_blank" class="main-link">
+                了解更多关于柳哲宇
+            </a>
+            <p style="color: rgba(255, 255, 255, 0.8); margin-top: 15px; font-size: 0.9rem;">
+                点击上方链接查看更多信息
+            </p>
+        </div>
+        
+        <footer>
+            <p>© 2024 柳哲宇的个人页面 | 最后更新: 今天</p>
+            <p style="margin-top: 5px;">用 ❤️ 制作的HTML页面</p>
+        </footer>
     </div>
+    
+    <script>
+        // 添加一些简单的交互效果
+        document.addEventListener('DOMContentLoaded', function() {
+            // 为列表项添加点击效果
+            const listItems = document.querySelectorAll('li');
+            listItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    this.style.backgroundColor = '#d4edda';
+                    setTimeout(() => {
+                        this.style.backgroundColor = '';
+                    }, 300);
+                });
+            });
+            
+            // 页面加载动画
+            const container = document.querySelector('.container');
+            container.style.opacity = '0';
+            container.style.transform = 'translateY(20px)';
+            
+            setTimeout(() => {
+                container.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+                container.style.opacity = '1';
+                container.style.transform = 'translateY(0)';
+            }, 100);
+            
+            // 更新年份
+            const yearSpan = document.querySelector('footer p');
+            if (yearSpan) {
+                yearSpan.innerHTML = yearSpan.innerHTML.replace('2024', new Date().getFullYear());
+            }
+        });
+    </script>
 </body>
+</html>
